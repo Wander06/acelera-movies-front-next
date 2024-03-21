@@ -1,14 +1,11 @@
-const LandingPage = () => {
+import { LoginComponent } from "@/components/login/loginComponent"
+
+const ToDo = () => {
     return (
         <>
-            <span>
-                Página inicial no endereço <code>/</code>
-            </span>
-            <span>
-                Para acessar a página de tarefas, acesse <code>/todo</code> ou clique <a href="/todo" target="_blank">aqui</a>
-            </span>
+            <LoginComponent name="" description="" />
         </>
     )
 }
 
-export default LandingPage
+export default ToDo
